@@ -8,11 +8,11 @@
 
 ## 👨‍💻 About Me
 
-💼 Currently working as a **Backend Engineer at SH Bilişim**, contributing to systems under **MigrosOne** organization.
-🎓 B.Sc. in **Software Engineering (TED University)**
-⚙️ Focused on building **scalable backend systems**, **event-driven architectures**, and **microservices**.
-🚀 Experienced in **high-performance APIs**, **asynchronous systems**, and **data-driven services**.
-🤖 Interested in **AI-powered systems and LLM-integrated backend architectures**.
+💼 Currently working as a **Backend Engineer at SH Bilişim**, contributing to systems under **MigrosOne** organization.  
+🎓 B.Sc. in **Software Engineering (TED University)**  
+⚙️ Focused on building **scalable backend systems**, **event-driven architectures**, and **microservices**.  
+🚀 Experienced in **high-performance APIs**, **asynchronous systems**, and **data-driven services**.  
+🤖 Interested in **AI-powered systems and LLM-integrated backend architectures**.  
 
 📍 Based in Turkey (Ankara / Kocaeli)
 
