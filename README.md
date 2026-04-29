@@ -1,121 +1,154 @@
-# 👋 Hello, I'm Ahmet Efe Ersoy.
+# 👋 Hi, I'm Ahmet Efe Ersoy
 
-🎓 I graduated from TED University's Software Engineering Department (100% English) with high honors and a 3.56 GPA.  
-💼 I successfully completed and delivered the LLM-based AI-powered technology management platform I developed as part of the TUSAŞ Lift-Up Program.  
-🤖 I’m passionate about backend engineering, microservices, distributed systems, and designing scalable architectures powered by modern AI technologies and Large Language Models (LLMs).    
-📍 I can live in Ankara and Kocaeli.
-
----
-
-## 🚀 My Interests
-- Backend Development
-- Event-Driven Microservices (Kafka, REST)  
-- Large Language Models (LLMs) & Artificial Intelligence Development  
-- Full-stack Development  
-- Agentic Systems  
-- Machine Learning & Deep Learning
-- Natural Language Processing (NLP)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=100&section=header&text=Backend%20Engineer%20%7C%20Java%20and%20Spring%20Boot&fontSize=28&fontColor=ffffff" width="100%"/>
+</div>
 
 ---
 
-## 🛠️ Technologies & Tools
-- **Programming Languages:** Python, Java, C#, JavaScript, TypeScript
-- **Framework & Platforms:** Spring, .NET, React, Node.js, Express.js, Vite , Redux Toolkit
-- **Databases:** SQL (MySQL, PostgreSQL, etc.), NoSQL (MongoDB, etc.)
-- **Pipelines & Automation:** Dagster  
-- **ORMs & Data Access:** Prisma, Entity Framework , JPA
-- **API Development:** RESTful APIs, Swagger/OpenAPI
-- **Form Validation:** React Hook Form, Zod
-- **DevOps & Deployment:** Docker, Docker Compose,
-- **Development Tools:** Git, GitHub, VS Code, Postman
+## 👨‍💻 About Me
+
+💼 Currently working as a **Backend Engineer at SH Bilişim**, contributing to systems under **MigrosOne** organization.
+🎓 B.Sc. in **Software Engineering (TED University)**
+⚙️ Focused on building **scalable backend systems**, **event-driven architectures**, and **microservices**.
+🚀 Experienced in **high-performance APIs**, **asynchronous systems**, and **data-driven services**.
+🤖 Interested in **AI-powered systems and LLM-integrated backend architectures**.
+
+📍 Based in Turkey (Ankara / Kocaeli)
 
 ---
 
-## 📌 Featured Projects
+## 🎯 Professional Focus
 
-### 🚀 **SaaSly – Modular AI-Powered SaaS Tools Platform**  
-A modular SaaS platform offering multiple AI-powered utilities.  
-- Backend built with **Node.js, PostgreSQL, Prisma, Supabase**  
-- Supabase Auth for authentication & RBAC  
-- Scalable, multi-tool architecture  
-- LLM-powered tool integrations  
-- Premium-tier access system (in progress)
+* Backend engineering with **Java & Spring Boot**
+* Event-driven architectures using **Apache Kafka**
+* Relational database design and optimization
+* Clean API design and maintainable service architecture
+* AI-powered backend systems and automation
 
 ---
 
-### 📊 **Fund Data Platform – TEFAS Fund Analytics Pipeline**  
-An end-to-end automated fund analytics system.  
-- **Dagster** pipelines for ingestion, normalization, and scheduling  
-- **FastAPI** backend for fund performance & risk scoring  
-- Time-series optimized PostgreSQL schema  
-- Automated daily jobs for TEFAS data updates  
+## 🛠️ Tech Stack
+
+### 🚀 Backend & Core
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge\&logo=spring\&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-000000?style=for-the-badge\&logo=apachekafka\&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
 
 ---
 
-### ⚙️ **Order Event Processor – Event-Driven Microservices Architecture**  
-Developed using **Spring Boot, Kafka, PostgreSQL**.  
-- Event-driven, asynchronous communication between services  
-- Stock, payment, and notification microservices  
-- Dockerized and scalable  
+### 🗄️ Databases
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white)
 
 ---
 
-### ✅ **Task Management App – Full-Stack Authentication & CRUD**  
-- JWT authentication & secure session handling  
-- CRUD operations with Prisma + PostgreSQL  
-- React/TypeScript + Redux Toolkit frontend  
-- Zod validation + Docker + Swagger  
+### ⚙️ DevOps & Tools
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge\&logo=swagger\&logoColor=black)
 
 ---
 
-### 🧠 **AI-Based Technology Management Platform (TUSAŞ)**  
-- Full-stack architecture with **React.js + Node.js**  
-- LLM/NLP-powered publication filtering & scoring  
-- Dashboard visualizations, infographics, and evaluation tools  
+### 💡 Other
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
+![Dagster](https://img.shields.io/badge/Dagster-1F1F1F?style=for-the-badge)
 
 ---
 
-### 💰 **Finance Copilot – AI-Powered Personal Finance Assistant**  
-- Node.js + Python backend  
-- Google Gemini LLM for budgeting & financial insights  
-- PDF/image bank statement parsing  
-- MongoDB storage + React dashboard  
+## 🔭 Currently Working On
+
+* Building backend services with **Java, Spring Boot, Kafka, and MySQL**
+* Designing event-driven flows and service communication
+* Improving API reliability and system performance
+* Developing scalable and maintainable microservices
+* Exploring AI-integrated backend solutions
 
 ---
 
-### 🗄️ **Natural Language → SQL Query Tool (LLM-Powered)**  
-- Python + Gemini LLM  
-- Converts natural language prompts into SQL queries  
-- Executes over SQLite databases  
-- Multilingual Gradio interface  
+## 🚀 Featured Projects
+
+### ⚙️ Order Event Processor
+
+> Event-driven microservices system for order lifecycle management.
+
+* Built with **Spring Boot, Kafka, PostgreSQL**
+* Asynchronous communication between services
+* Includes stock, payment, and notification services
+* Containerized with Docker
 
 ---
 
-### 🎬 **WatchHub (iOS Application)**  
-- React Native + ASP.NET Core (MVC)  
-- SQL-based backend & AWS deployment  
-- Movie trailers, comments, and user interaction features  
+### 📊 Fund Data Platform
+
+> Automated financial data ingestion and analytics pipeline.
+
+* Built using **Dagster, FastAPI, PostgreSQL**
+* Daily ingestion & normalization pipelines
+* Time-series optimized schema
+* Fund performance & risk scoring APIs
 
 ---
 
-### 🎮 **UNO Card Game (Java Desktop Application)**  
-A full desktop UNO game built with OOP principles.  
-- Developed using **Java Swing**  
-- Complete game logic and turn-based mechanics  
+### 🚀 SaaSly
+
+> Modular AI-powered SaaS tools platform.
+
+* **Node.js, PostgreSQL, Prisma, Supabase**
+* Multi-tool architecture with LLM integrations
+* Authentication & RBAC system
+* Scalable SaaS infrastructure
+
 ---
 
-## 📈 My GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AhmetEfeErsoy&show_icons=true&count_private=true&theme=radical&cache_seconds=86400)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AhmetEfeErsoy&theme=radical&cache_seconds=86400)
+### 🧠 AI-Based Technology Management Platform
 
+> LLM-powered analytics and evaluation system (TUSAŞ).
+
+* NLP-based publication filtering & scoring
+* Dashboard visualizations and evaluation tools
+* Full-stack architecture
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=AhmetEfeErsoy&theme=radical&hide_border=true" />
+<br/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AhmetEfeErsoy&theme=radical" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AhmetEfeErsoy/AhmetEfeErsoy/output/github-contribution-grid-snake.svg" />
+</div>
 
 ---
 
 ## 📫 Contact
-[LinkedIn](https://www.linkedin.com/in/ahmet-efe-ersoy-43115626b/)  
-📧 ahmetefeersoy@gmail.com  
-📧 ahmetefeersoy8@gmail.com
 
----
-
-Thanks for checking out my profile!
+<div align="center">
+  <a href="https://www.linkedin.com/in/ahmet-efe-ersoy-43115626b/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:ahmetefeersoy@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</div>
