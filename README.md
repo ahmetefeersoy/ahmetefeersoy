@@ -136,9 +136,9 @@
 
 ## 🐍 Contribution Snake
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/AhmetEfeErsoy/AhmetEfeErsoy/output/github-contribution-grid-snake.svg" />
-</div>
+
+  ![snake gif](https://github.com/ahmetefeersoy/ahmetefeersoy/blob/output/github-snake-dark.svg)
+
 
 ---
 
