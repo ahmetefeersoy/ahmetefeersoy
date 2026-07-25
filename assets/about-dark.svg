@@ -1,0 +1,352 @@
+ChatGPT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bugün 15:18
+foto.jpg
+fotoğraf bu onun dışına ben neler koyıyım o dosya içine
+
+gözlük koyabilir mşisin bana
+
+
+Interpreted the edit
+Görsel üretildi
+
+
+Düzenle
+
+
+şuan son haliin ne yapmam lazım ? svg dosyalrının içi read'me nin tam hali nasıl olucak
+
+Worked for 18s
+Aynen knk, şimdi sana direkt son hali bırakıyorum.
+Bunu kopyalayıp repo içine koyarsan çalışır.
+
+1) Repo yapısı
+ahmetefeersoy/
+├── README.md
+└── assets/
+    ├── about-dark.svg
+    └── about-light.svg
+İstersen eski capsule header kalsın.
+Sadece About Me kısmını özel SVG yapıyoruz.
+
+2) assets/about-dark.svg
+<svg width="1100" height="340" viewBox="0 0 1100 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgDark" x1="0" y1="0" x2="1100" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="accentDark" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+
+    <filter id="shadowDark" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="glowDark" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#22D3EE" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1100" height="340" rx="28" fill="url(#bgDark)"/>
+
+  <circle cx="170" cy="55" r="130" fill="#22D3EE" opacity="0.05"/>
+  <circle cx="950" cy="300" r="180" fill="#7C3AED" opacity="0.06"/>
+
+  <!-- Left panel -->
+  <rect x="22" y="22" width="360" height="296" rx="22" fill="#0F172A" fill-opacity="0.92" stroke="rgba(255,255,255,0.08)" filter="url(#shadowDark)"/>
+  <text x="42" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8">ASCII PROFILE</text>
+  <text x="42" y="67" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B">generated from profile photo</text>
+
+  <g filter="url(#glowDark)">
+    <text x="40" y="92" xml:space="preserve" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="10.5" fill="#67E8F9">
+      <tspan x="40" dy="0">                       :-=+**+-:..</tspan>
+      <tspan x="40" dy="12">                  .:=*%@@@@@@@@@%%#**+-</tspan>
+      <tspan x="40" dy="12">               .+#%@@@@@@@@@@@@@@@@@@@@%=</tspan>
+      <tspan x="40" dy="12">              -%@@@@@@@@@@@@@%%%@%%@@@@@@=</tspan>
+      <tspan x="40" dy="12">             +%@@@@@@%%######*****#%@@%@@%*.</tspan>
+      <tspan x="40" dy="12">            .%@@@%#*+=======-----=++***%@@@*</tspan>
+      <tspan x="40" dy="12">             #@@%+=---------------====+*%@@#</tspan>
+      <tspan x="40" dy="12">             +@%#+==----::--::::---===++*%@#.</tspan>
+      <tspan x="40" dy="12">             =@%+==++++++=--:::-=******++*%@:</tspan>
+      <tspan x="40" dy="12">             .#%+=+**+*+++=--:-==++++***++%#</tspan>
+      <tspan x="40" dy="12">              .#*====+*#*===--==++*#**+=++%-</tspan>
+      <tspan x="40" dy="12">             :-=*==-=====--==-==========++*==.</tspan>
+      <tspan x="40" dy="12">             .-=*+=--------==-=+==-----=++*-=.</tspan>
+      <tspan x="40" dy="12">              :+++=-------==-:-++=----==+*+==</tspan>
+      <tspan x="40" dy="12">               -=*+=-----==*+=+*+===-===**+=:</tspan>
+      <tspan x="40" dy="12">                :-+==--===++++++++++===+*+=:</tspan>
+      <tspan x="40" dy="12">                  :++=-=++++===++**+==+++</tspan>
+      <tspan x="40" dy="12">                   -++=------========++*+</tspan>
+      <tspan x="40" dy="12">                    ++===----==---==++**+</tspan>
+      <tspan x="40" dy="12">                    =++++=-------==+***++.</tspan>
+      <tspan x="40" dy="12">                   -==++***+==+=+*##*++++=</tspan>
+      <tspan x="40" dy="12">                  :#====++*#######*++++++*=</tspan>
+      <tspan x="40" dy="12">                 ..*====+++++++++++++====*-...</tspan>
+    </text>
+  </g>
+
+  <!-- Right panel -->
+  <rect x="402" y="22" width="676" height="296" rx="22" fill="#111827" fill-opacity="0.86" stroke="rgba(255,255,255,0.08)" filter="url(#shadowDark)"/>
+
+  <circle cx="430" cy="42" r="5" fill="#EF4444"/>
+  <circle cx="448" cy="42" r="5" fill="#F59E0B"/>
+  <circle cx="466" cy="42" r="5" fill="#10B981"/>
+
+  <text x="430" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#F8FAFC">Hi 👋</text>
+  <text x="430" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">I'm Ahmet Efe Ersoy</text>
+  <text x="430" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="url(#accentDark)">Backend Engineer • Java &amp; Spring Boot</text>
+
+  <text x="430" y="178" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#22D3EE">&gt; current_role</text>
+  <text x="560" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0">Backend Engineer at SH Bilişim</text>
+
+  <text x="430" y="202" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#22D3EE">&gt; education</text>
+  <text x="560" y="202" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0">B.Sc. Software Engineering — TED University</text>
+
+  <text x="430" y="226" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#22D3EE">&gt; focus</text>
+  <text x="560" y="226" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0">Java, Spring Boot, Kafka, Microservices, Scalable APIs</text>
+
+  <text x="430" y="250" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#22D3EE">&gt; interests</text>
+  <text x="560" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0">AI-powered systems, LLM integrations, backend automation</text>
+
+  <text x="430" y="274" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#22D3EE">&gt; location</text>
+  <text x="560" y="274" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0">Ankara / Kocaeli, Turkey</text>
+
+  <!-- Skill pills -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+    <rect x="430" y="290" width="56" height="26" rx="13" fill="#1E293B" stroke="#334155"/>
+    <text x="458" y="307" text-anchor="middle" fill="#E2E8F0">Java</text>
+
+    <rect x="495" y="290" width="98" height="26" rx="13" fill="#1E293B" stroke="#334155"/>
+    <text x="544" y="307" text-anchor="middle" fill="#E2E8F0">Spring Boot</text>
+
+    <rect x="602" y="290" width="60" height="26" rx="13" fill="#1E293B" stroke="#334155"/>
+    <text x="632" y="307" text-anchor="middle" fill="#E2E8F0">Kafka</text>
+
+    <rect x="671" y="290" width="92" height="26" rx="13" fill="#1E293B" stroke="#334155"/>
+    <text x="717" y="307" text-anchor="middle" fill="#E2E8F0">PostgreSQL</text>
+
+    <rect x="772" y="290" width="65" height="26" rx="13" fill="#1E293B" stroke="#334155"/>
+    <text x="804" y="307" text-anchor="middle" fill="#E2E8F0">Docker</text>
+
+    <rect x="846" y="290" width="68" height="26" rx="13" fill="#1E293B" stroke="#334155"/>
+    <text x="880" y="307" text-anchor="middle" fill="#E2E8F0">Python</text>
+  </g>
+</svg>
+3) assets/about-light.svg
+
+4) README.md tam hali
+Bunu direkt kullanabilirsin:
+
+# 👋 Hi, I'm Ahmet Efe Ersoy
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=100&section=header&text=Backend%20Engineer%20%7C%20Java%20and%20Spring%20Boot&fontSize=28&fontColor=ffffff" width="100%"/>
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/about-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/about-light.svg"
+  />
+  <img
+    src="./assets/about-dark.svg"
+    alt="About Ahmet Efe Ersoy"
+    width="100%"
+  />
+</picture>
+
+---
+
+## 🎯 Professional Focus
+
+```text
+Backend Development      Java, Spring Boot, REST APIs
+Distributed Systems      Microservices, asynchronous communication
+Event-Driven Systems     Apache Kafka, event processing
+Data & Persistence       PostgreSQL, MySQL, MongoDB
+Engineering Practices    Clean code, testing, maintainable architecture
+AI Integration           LLM-powered services and backend automation
+🛠️ Tech Stack
+🚀 Backend & Core
+Java
+
+
+REST API
+
+🗄️ Databases
+PostgreSQL
+MySQL
+MongoDB
+
+⚙️ DevOps & Tools
+Docker
+Docker Compose
+Git
+
+Swagger
+
+💡 Other
+Python
+FastAPI
+Node.js
+JavaScript
+
+🔭 Currently Working On
+Building backend services with Java, Spring Boot, Kafka, and MySQL
+
+Designing event-driven service communication
+
+Improving API reliability, performance, and maintainability
+
+Developing modular and scalable microservice architectures
+
+Exploring LLM integrations and AI-powered backend workflows
+
+🚀 Featured Projects
+⚙️ Order Event Processor
+Event-driven microservices system designed to manage the complete order lifecycle.
+
+Built with Spring Boot, Apache Kafka, and PostgreSQL
+
+Uses asynchronous communication between independent services
+
+Includes order, stock, payment, and notification flows
+
+Containerized using Docker
+
+Designed around loose coupling and event-based communication
+
+Java Spring Boot Kafka PostgreSQL Docker
+
+📊 Fund Data Platform
+Automated financial data ingestion, processing, and analytics platform.
+
+Built with Dagster, FastAPI, and PostgreSQL
+
+Automates daily data ingestion and normalization pipelines
+
+Uses a time-series-oriented data model
+
+Provides fund performance and risk-scoring APIs
+
+Designed for reliable scheduled processing and analytical workloads
+
+Python FastAPI Dagster PostgreSQL Data Pipelines
+
+🚀 SaaSly
+Modular SaaS platform containing AI-powered productivity tools.
+
+Built with Node.js, PostgreSQL, Prisma, and Supabase
+
+Supports multiple tools through a modular architecture
+
+Includes authentication and role-based access control
+
+Integrates LLM-powered features
+
+Designed with scalable SaaS infrastructure principles
+
+Node.js PostgreSQL Prisma Supabase LLM
+
+🧠 AI-Based Technology Management Platform
+AI-powered technology evaluation and analytics platform developed within the TUSAŞ Lift-Up program.
+
+Uses NLP and LLM-based methods for publication filtering and scoring
+
+Provides evaluation dashboards and analytical tools
+
+Supports technology research and decision-making processes
+
+Developed with a full-stack architecture
+
+AI NLP LLM Analytics Full Stack
+
+📊 GitHub Activity
+<div align="center"> <img src="https://streak-stats.demolab.com?user=AhmetEfeErsoy&theme=radical&hide_border=true" /> <br/> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AhmetEfeErsoy&theme=radical" /> </div>
+🐍 Contribution Snake
+<div align="center">
+snake gif
+
+</div>
+📫 Contact
+<div align="center"> <a href="https://www.linkedin.com/in/ahmet-efe-ersoy-43115626b/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="mailto:ahmetefeersoy@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> </a> </div> ```
+5) Sen şimdi tam olarak ne yapacaksın?
+Adım 1
+Profil repo’na gir.
+
+Repo adı muhtemelen şu:
+
+AhmetEfeErsoy/AhmetEfeErsoy
+Adım 2
+assets klasörü aç.
+
+Adım 3
+Yukarıdaki iki SVG dosyasını oluştur:
+
+assets/about-dark.svg
+
+assets/about-light.svg
+
+Adım 4
+README.md içine verdiğim tam içeriği yapıştır.
+
+Adım 5
+Commit + push yap:
+
+git add .
+git commit -m "Update profile README with custom About Me SVG section"
+git push
+6) Küçük not
+Şu an verdiğim SVG’de ASCII, mevcut ascii çıktına göre gömülü.
+Yani ekstra ascii.txt dosyasını repoya koyman şart değil.
+
+İstersen sonraki adımda ben sana bir de:
+
+daha premium versiyon
+
+daha kompakt versiyon
+
+tam Cem Deniz tarzına daha yakın terminal versiyonu
+
+olarak 2-3 alternatif hazırlayabilirim.
+İstersen bir sonraki mesajda sana daha şık, daha temiz bir dark SVG v2 yazayım.
+
+
+svgleri naısl oluşturucam olum ?
+
+
+Analiz ediliyor
+
