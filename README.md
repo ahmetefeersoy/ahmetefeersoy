@@ -6,15 +6,21 @@
 
 ---
 
-## 👨‍💻 About Me
-
-💼 Currently working as a **Backend Engineer at SH Bilişim**, contributing to systems under **MigrosOne** organization.  
-🎓 B.Sc. in **Software Engineering (TED University)**  
-⚙️ Focused on building **scalable backend systems**, **event-driven architectures**, and **microservices**.  
-🚀 Experienced in **high-performance APIs**, **asynchronous systems**, and **data-driven services**.  
-🤖 Interested in **AI-powered systems and LLM-integrated backend architectures**.  
-
-📍 Based in Turkey (Ankara / Kocaeli)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/about-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/about-light.svg"
+  />
+  <img
+    src="./assets/about-dark.svg"
+    alt="About Ahmet Efe Ersoy"
+    width="100%"
+  />
+</picture>
 
 ---
 
