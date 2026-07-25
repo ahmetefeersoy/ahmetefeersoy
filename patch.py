@@ -1,0 +1,8 @@
+s = open('gen_banner.py', encoding='utf-8').read()
+s = s.replace('y0 = 102', 'y0 = 92')
+s = s.replace('lh = 19.5', 'lh = 13.9')
+s = s.replace('font-size="14.5" xml:space', 'font-size="10.2" xml:space')
+s = s.replace('x="52" y="{y0+i*lh:.0f}"', 'x="46" y="{y0+i*lh:.0f}"')
+s = s.replace('begin="{0.35+i*0.14:.2f}s"', 'begin="{0.35+i*0.10:.2f}s"')
+open('gen_banner.py', 'w', encoding='utf-8').write(s)
+print('patched')
