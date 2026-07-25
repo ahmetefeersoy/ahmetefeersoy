@@ -1,11 +1,3 @@
-# 👋 Hi, I'm Ahmet Efe Ersoy
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=100&section=header&text=Backend%20Engineer%20%7C%20Java%20and%20Spring%20Boot&fontSize=28&fontColor=ffffff" width="100%"/>
-</div>
-
----
-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
