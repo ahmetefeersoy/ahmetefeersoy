@@ -1,36 +1,78 @@
-<svg
-  width="1100"
-  height="340"
-  viewBox="0 0 1100 340"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
+<svg width="1100" height="340" viewBox="0 0 1100 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient
-      id="bgDark"
-      x1="0"
-      y1="0"
-      x2="1100"
-      y2="340"
-      gradientUnits="userSpaceOnUse"
-    >
-      <stop stop-color="#0B1120" />
-      <stop offset="1" stop-color="#111827" />
+    <linearGradient id="bgDark" x1="0" y1="0" x2="1100" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120">
+        <animate
+          attributeName="stop-color"
+          values="#0B1120;#111827;#0B1120"
+          dur="10s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="55%" stop-color="#111827">
+        <animate
+          attributeName="stop-color"
+          values="#111827;#0F172A;#111827"
+          dur="12s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="100%" stop-color="#0B1120">
+        <animate
+          attributeName="stop-color"
+          values="#0B1120;#172033;#0B1120"
+          dur="14s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <animate
+        attributeName="x1"
+        values="0;250;0"
+        dur="14s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="x2"
+        values="1100;850;1100"
+        dur="14s"
+        repeatCount="indefinite"
+      />
     </linearGradient>
 
     <linearGradient id="accentDark" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#7C3AED" />
-      <stop offset="0.5" stop-color="#22D3EE" />
-      <stop offset="1" stop-color="#10B981" />
+      <stop offset="0%" stop-color="#7C3AED">
+        <animate
+          attributeName="stop-color"
+          values="#7C3AED;#22D3EE;#7C3AED"
+          dur="8s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="50%" stop-color="#22D3EE">
+        <animate
+          attributeName="stop-color"
+          values="#22D3EE;#10B981;#22D3EE"
+          dur="8s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="100%" stop-color="#10B981">
+        <animate
+          attributeName="stop-color"
+          values="#10B981;#7C3AED;#10B981"
+          dur="8s"
+          repeatCount="indefinite"
+        />
+      </stop>
     </linearGradient>
 
-    <filter
-      id="shadowDark"
-      x="-20%"
-      y="-20%"
-      width="140%"
-      height="140%"
-    >
+    <filter id="shadowDark" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow
         dx="0"
         dy="10"
@@ -40,13 +82,7 @@
       />
     </filter>
 
-    <filter
-      id="glowDark"
-      x="-50%"
-      y="-50%"
-      width="200%"
-      height="200%"
-    >
+    <filter id="glowDark" x="-50%" y="-50%" width="200%" height="200%">
       <feDropShadow
         dx="0"
         dy="0"
@@ -55,6 +91,17 @@
         flood-opacity="0.18"
       />
     </filter>
+
+    <linearGradient id="scanline" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="particleGlow">
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
   <!-- Main background -->
@@ -65,14 +112,35 @@
     fill="url(#bgDark)"
   />
 
-  <!-- Background glow -->
+  <!-- Animated background glows -->
   <circle
     cx="170"
     cy="55"
     r="130"
     fill="#22D3EE"
     opacity="0.05"
-  />
+  >
+    <animate
+      attributeName="cx"
+      values="150;230;150"
+      dur="11s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="cy"
+      values="45;95;45"
+      dur="13s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0.03;0.08;0.03"
+      dur="7s"
+      repeatCount="indefinite"
+    />
+  </circle>
 
   <circle
     cx="950"
@@ -80,9 +148,30 @@
     r="180"
     fill="#7C3AED"
     opacity="0.06"
-  />
+  >
+    <animate
+      attributeName="cx"
+      values="950;875;950"
+      dur="15s"
+      repeatCount="indefinite"
+    />
 
-  <!-- ASCII portrait panel -->
+    <animate
+      attributeName="cy"
+      values="300;250;300"
+      dur="12s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0.04;0.09;0.04"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <!-- Left panel -->
   <rect
     x="22"
     y="22"
@@ -96,8 +185,16 @@
     filter="url(#shadowDark)"
   />
 
-  <!-- ASCII portrait -->
+  <!-- Animated ASCII portrait -->
   <g filter="url(#glowDark)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 0 -5; 0 0"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+
     <text
       x="40"
       y="58"
@@ -132,7 +229,7 @@
     </text>
   </g>
 
-  <!-- Information panel -->
+  <!-- Right terminal panel -->
   <rect
     x="402"
     y="22"
@@ -146,12 +243,12 @@
     filter="url(#shadowDark)"
   />
 
-  <!-- Terminal controls -->
+  <!-- Terminal buttons -->
   <circle cx="430" cy="42" r="5" fill="#EF4444" />
   <circle cx="448" cy="42" r="5" fill="#F59E0B" />
   <circle cx="466" cy="42" r="5" fill="#10B981" />
 
-  <!-- Main information -->
+  <!-- Header -->
   <text
     x="430"
     y="78"
@@ -192,7 +289,7 @@
     font-size="14"
     fill="#22D3EE"
   >
-    &gt; /current_role
+    /current_role
   </text>
 
   <text
@@ -213,7 +310,7 @@
     font-size="14"
     fill="#22D3EE"
   >
-    &gt; /education
+    /education
   </text>
 
   <text
@@ -234,7 +331,7 @@
     font-size="14"
     fill="#22D3EE"
   >
-    &gt; /focus
+    /focus
   </text>
 
   <text
@@ -255,7 +352,7 @@
     font-size="14"
     fill="#22D3EE"
   >
-    &gt; /interests
+    /interests
   </text>
 
   <text
@@ -265,7 +362,7 @@
     font-size="14"
     fill="#E2E8F0"
   >
-    Backend Systems, AI-powered systems, LLM integrations
+    AI-powered systems, LLM integrations, backend automation
   </text>
 
   <!-- Location -->
@@ -276,7 +373,7 @@
     font-size="14"
     fill="#22D3EE"
   >
-    &gt; /location
+    /location
   </text>
 
   <text
@@ -288,4 +385,115 @@
   >
     Ankara / Kocaeli, Turkey
   </text>
+
+  <!-- Floating particles -->
+  <g opacity="0.65">
+    <circle cx="96" cy="278" r="3" fill="url(#particleGlow)">
+      <animate
+        attributeName="cy"
+        values="278;42;278"
+        dur="9s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="opacity"
+        values="0;0.8;0"
+        dur="9s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="260" cy="304" r="2.5" fill="url(#particleGlow)">
+      <animate
+        attributeName="cy"
+        values="304;70;304"
+        dur="11s"
+        begin="1.5s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="opacity"
+        values="0;0.7;0"
+        dur="11s"
+        begin="1.5s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="1020" cy="302" r="3" fill="url(#particleGlow)">
+      <animate
+        attributeName="cy"
+        values="302;48;302"
+        dur="10s"
+        begin="2s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="opacity"
+        values="0;0.65;0"
+        dur="10s"
+        begin="2s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="760" cy="318" r="2" fill="url(#particleGlow)">
+      <animate
+        attributeName="cy"
+        values="318;52;318"
+        dur="12s"
+        begin="0.8s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="opacity"
+        values="0;0.6;0"
+        dur="12s"
+        begin="0.8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+  </g>
+
+  <!-- Moving scanline -->
+  <rect
+    x="22"
+    y="22"
+    width="1056"
+    height="28"
+    rx="14"
+    fill="url(#scanline)"
+    opacity="0.35"
+  >
+    <animate
+      attributeName="y"
+      values="22;290;22"
+      dur="7s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- Animated outer border -->
+  <rect
+    x="1.5"
+    y="1.5"
+    width="1097"
+    height="337"
+    rx="27"
+    fill="none"
+    stroke="url(#accentDark)"
+    stroke-width="1.5"
+    opacity="0.35"
+  >
+    <animate
+      attributeName="opacity"
+      values="0.18;0.55;0.18"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </rect>
 </svg>
