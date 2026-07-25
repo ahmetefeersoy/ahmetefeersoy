@@ -69,19 +69,19 @@
   <text x="430" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">I'm Ahmet Efe Ersoy</text>
   <text x="430" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="url(#accentLight)">Backend Engineer • Java &amp; Spring Boot</text>
 
-  <text x="430" y="178" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; current_role</text>
+  <text x="430" y="178" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; /current_role</text>
   <text x="560" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#334155">Backend Engineer at SH Bilişim</text>
 
-  <text x="430" y="202" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; education</text>
+  <text x="430" y="202" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; /education</text>
   <text x="560" y="202" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#334155">B.Sc. Software Engineering — TED University</text>
 
-  <text x="430" y="226" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; focus</text>
+  <text x="430" y="226" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; /focus</text>
   <text x="560" y="226" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#334155">Java, Spring Boot, Kafka, Microservices, Scalable APIs</text>
 
-  <text x="430" y="250" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; interests</text>
-  <text x="560" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#334155">AI-powered systems, LLM integrations, backend automation</text>
+  <text x="430" y="250" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; /interests</text>
+  <text x="560" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#334155">Backend systems, AI-powered systems, LLM integrations</text>
 
-  <text x="430" y="274" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; location</text>
+  <text x="430" y="274" font-family="SFMono-Regular,Consolas,Monaco,monospace" font-size="14" fill="#0891B2">&gt; /location</text>
   <text x="560" y="274" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#334155">Ankara / Kocaeli, Turkey</text>
 
   <!-- Skill pills -->
